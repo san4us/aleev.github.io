@@ -1,4 +1,28 @@
-body {
-    background-color: blue;
-    background-size: 100vh;
+.btn-create {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(56, 98, 238);
+    background-color: rgb(91, 126, 243);
+    color: white;
+    text-transform: uppercase;
+
+    transition: all 0.5s;
+}
+
+.btn-create:hover {
+    cursor: pointer;
+    background-color: rgb(28, 53, 134);
+}
+
+.new-elements {
+    background-color: lightgreen;
+    min-height: 25vh;
+    margin-top: 25px;
+}
+
+.elem {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px dashed red;
 }
